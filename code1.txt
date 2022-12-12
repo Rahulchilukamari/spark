@@ -1,0 +1,5 @@
+val v1 = hello hello this this this is a a line line line line
+val v2 = v1.split(" ")
+val v3 = sc.parallelize(v2) 
+val v4 = v3.map(x=>(x,1))
+val v5 = v4.reduceByKey(_+_)
