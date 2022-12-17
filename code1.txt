@@ -4,3 +4,4 @@ val v3 = sc.parallelize(v2)
 val v4 = v3.map(x=>(x,1))
 val v5 = v4.reduceByKey(_+_)
 val v6 = v5.foreach(println)
+//comment
