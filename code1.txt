@@ -6,3 +6,4 @@ val v5 = v4.reduceByKey(_+_)
 val v6 = v5.foreach(println)
 //comment
 //comment2
+//comment 3
