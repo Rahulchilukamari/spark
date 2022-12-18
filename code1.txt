@@ -7,3 +7,5 @@ val v6 = v5.foreach(println)
 //comment
 //comment2
 //comment 3
+//comment 4
+//comment5
